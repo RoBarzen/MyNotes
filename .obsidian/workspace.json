@@ -1,0 +1,169 @@
+{
+  "main": {
+    "id": "d191b019faeee896",
+    "type": "split",
+    "children": [
+      {
+        "id": "9eae106b49d0e315",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e83730f8559a81f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robs Vault Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "82591f995ab71ca4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robs Vault Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0887575a1787196e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robs Vault Overview.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "83749a26915c230d",
+    "type": "split",
+    "children": [
+      {
+        "id": "39ef34839a44e0fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22dae9b6bcf0aacf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fefa659628dc4d88",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "779a5115b28773f1",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "42ebd17dc97477c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "73cbc105f22ef9ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bbc3c839f30cff24",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Robs Vault Overview.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b70520a2f6b6af3b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Robs Vault Overview.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "406616dac2c3b43d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "fc21671f42e001e8",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Robs Vault Overview.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0887575a1787196e",
+  "lastOpenFiles": [
+    "Python/Python Course.md",
+    "Robs Vault Overview.md"
+  ]
+}

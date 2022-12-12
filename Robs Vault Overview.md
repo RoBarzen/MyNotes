@@ -1,0 +1,2 @@
+spell
+- Python Course
