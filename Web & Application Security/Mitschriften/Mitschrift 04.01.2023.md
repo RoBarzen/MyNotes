@@ -1,0 +1,51 @@
+Code: [[mitschrift2.py]]
+
+Heute Flowcontroll von Code
+- while-loops
+- for-loops
+	- range(): 
+		- for i in range(1, 5):  # 1 ist start und 5 ist exklusiv der Endwert von 1 - 4
+		- for i in range(5): # wäre von 0 - 4
+	- loop mit string:
+		- for c in "my string": # geht jeden Character durch
+- loop beeinflussen:
+	- "break" -> unterbricht die Schleife
+	- "continue" -> lässt die Iteration der Schleife beenden
+- listen: -> ["a", "b"]
+	- .append() -> inplace operation
+	- string2 = string1 + list("12345") -> verschiedene Speicherstellen 
+	- .sort() ->my_list = "Hello World" ; my_list.sort() -> inplace
+	- mit sorted() -> neue Speicherstelle 
+- "a" in string:
+- tupel: -> ("a", "b")
+	- immutable
+	- entpacken von Tupeln: 
+		- my_list_of_tuples = (["a", "b"], ["c", "d"])
+		- for entry in my_list_of_tuples:
+			- left, right = entry
+		oder
+		- for left, right in my_list_of_tuples:
+- set:
+	- my_set = set(my_list)
+	- my_set & my_oder_set
+		- chars_s = set("Sebastian")
+		- chars_b = set("Ben")
+		- chars_b - chars_s
+	- Verschiedenste Operatoren
+- dictionarys: -> users = {"key": "value", "key2": "value2"}
+	- .keys()
+	- .values()
+	- .items() -> macht es iterable 
+- exception handling:
+	- try:
+	- execpt FileNotFoundError: -> FileNotFoundError wird abgefangen 
+	- except Exception: -> egal welcher Fehler wird hier abgefangen
+	- Wenn man nur except nimmt, wird alles abgefangen
+	- except Exeption as e:
+		- print(f"some other exception occured: {e}")
+- importing:
+	- verschiedene Bibiliotheken können so importiert werden
+	- daraus können die Funtionen genommen werden:
+	- e.g.:
+		- import os
+		- file_exists = exists(path_to_file)

@@ -1,4 +1,7 @@
-- 28.01.2023 ist Abgabe der ersten Übungsaufgaben
+
+Code: [[mitschrift1.py]]
+
+Mitschrift 14.12.2022- 28.01.2023 ist Abgabe der ersten Übungsaufgaben
 - Link ist hinterlegt im Browser
 - [ ]  TODO: Link sollte mal hier hinterlegt werden
 
