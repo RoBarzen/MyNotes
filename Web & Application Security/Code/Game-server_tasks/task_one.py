@@ -83,7 +83,7 @@ def palindrome(s):
 
 
 def energie_preis_deckel(previous_year_kwh, this_year_kwh, price_per_kwh):
-    previous_year_kwh/100*80 * 0.4
+    
 
 
 def main():

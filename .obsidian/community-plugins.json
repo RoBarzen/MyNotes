@@ -1,5 +1,7 @@
 [
   "table-editor-obsidian",
   "obsidian-languagetool-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-text-expander",
+  "obsidian-jupyter"
 ]
