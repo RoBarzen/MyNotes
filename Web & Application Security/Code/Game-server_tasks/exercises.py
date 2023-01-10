@@ -83,13 +83,47 @@ def palindrome(s):
 
 
 def energie_preis_deckel(previous_year_kwh, this_year_kwh, price_per_kwh):
-    
+    if price_per_kwh < 0.4:
+        return this_year_kwh* price_per_kwh    
+    else:
+        if this_year_kwh > previous_year_kwh * 0.8:
+            return previous_year_kwh * 0.8 * 0.4 + (this_year_kwh - previous_year_kwh * 0.8) * price_per_kwh
+        else:
+            return this_year_kwh * 0.4
+        
+
+def list_of_squares(n):
+    square_list = []
+    [square_list.append(i**2) for i in range(1, n+1)]
+    return square_list
+
+
+def remaining_debt_and_paid_interest(start_amount, interest_rate, monthly_rate, months):
+    if months == 0:
+        return (start_amount, 0)
+    else:
+        interest_rate /= 100
+        monthly_interest_rate = interest_rate / 12
+        debt = start_amount
+        total_interest_paid = 0
+        for i in range(months):
+            interest = debt * monthly_interest_rate
+            total_interest_paid += interest
+            debt -= monthly_rate - interest
+            if debt < 0:
+                debt = 0
+                break
+        if interest > monthly_rate:
+            raise ValueError("Impossible to pay off")
+        return round(debt, 2), round(total_interest_paid, 2)
+
+def anagram_or_set(string_one, string_two):
+    pass
 
 
 def main():
-    # Note: This is only for student-side debugging
-    assert (energie_preis_deckel(10000, 8000, 0.60) == 3200.0)
-
+    pass
+    
 
 if __name__ == '__main__':
    main()
